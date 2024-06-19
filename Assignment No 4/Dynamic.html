@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Styling</title>
+    <style>
+        .text-here {
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-here" id="text-container">This is some example text</div>
+
+    <input type="text" id="colorbox" placeholder="Enter color">
+    <button id="colorchange">Change Color</button>
+
+    <br><br>
+
+    <input type="range" id="fontsize" min="10" max="100" value="55">
+
+    <br><br>
+
+    <button class="stylebt" id="underline">Underline</button>
+    <button class="stylebt" id="italic">Italic</button>
+    <button class="stylebt" id="bold">Bold</button>
+
+    <br><br>
+
+    <select id="list">
+        <option value="serif">Serif</option>
+        <option value="sans-serif">Sans-Serif</option>
+        <option value="monospace">Monospace</option>
+        <option value="cursive">Cursive</option>
+        <option value="fantasy">Fantasy</option>
+    </select>
+
+    <br><br>
+
+    <button id="getstyle">Get Style</button>
+    <p id="css-props"></p>
+
+    <script src="path/to/your/javascript/file.js"></script>
+</body>
+</html>
